@@ -83,7 +83,7 @@
        const weatherEmoji = document.createElement("p");
    
        
-       //set text contenet of created elements
+       //set text content of created elements
        cityDisplay.textContent = city;
        //convert Kelvin temperature to Ferenheit and set text content
        tempDisplay.textContent = `${((temp - 273.15) * (9/5) + 32).toFixed(1)}°F`;
